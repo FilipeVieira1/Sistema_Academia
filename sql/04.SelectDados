@@ -4,3 +4,9 @@ SELECT c.id_contrato, a.nome AS aluno, p.nome_plano
 FROM Contrato c
 JOIN Aluno a ON a.id_aluno = c.id_aluno
 JOIN Plano p ON p.id_plano = c.id_plano;
+
+SELECT t.nome_treino, e.nome_exercicio, te.series, te.repeticoes
+FROM Treino t
+JOIN Treino_Exercicio te ON t.id_treino = te.id_treino
+JOIN Exercicio e ON e.id_exercicio = te.id_exercicio
+WHERE t.id_aluno = 1;
