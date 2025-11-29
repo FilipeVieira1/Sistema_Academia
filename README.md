@@ -29,7 +29,7 @@ A academia precisa gerenciar:
 
 O banco garante integridade, histórico completo e evita redundâncias.
 
-Modelo Lógico – Visão Geral
+MODELO LÓGICO - VISÃO GERAL
 
 Todas as tabelas foram normalizadas até 3FN, evitando duplicações e dependências parciais ou transitivas.
 
@@ -45,9 +45,11 @@ Entidades principais:
 -TREINO_EXERCICIO (N:N);
 -CHECKIN.
 
-Tecnologias Utilizadas
+TECNOLOGIAS UTILIZADAS
 
 MySQL Workbench
+
+ESTRUTURA DO REPOSITÓRIO
 
 Configuração do Ambiente:
 Arquivo: 01.Criar_DB
@@ -67,7 +69,7 @@ Arquivo: 05.UpdateDados
 Exclusão:
 Arquivo 06.DeleteDados
 
-Objetivo Pedagógico
+OBJETIVO
 
 Este projeto evidencia:
 
