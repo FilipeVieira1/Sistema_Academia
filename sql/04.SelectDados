@@ -1,0 +1,6 @@
+SELECT * FROM Aluno;
+
+SELECT c.id_contrato, a.nome AS aluno, p.nome_plano
+FROM Contrato c
+JOIN Aluno a ON a.id_aluno = c.id_aluno
+JOIN Plano p ON p.id_plano = c.id_plano;
