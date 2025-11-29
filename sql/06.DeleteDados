@@ -1,0 +1,9 @@
+DELETE FROM Checkin WHERE id_aluno = 1;
+
+DELETE FROM Treino_Exercicio WHERE id_treino = 10;
+DELETE FROM Treino WHERE id_treino = 10;
+
+DELETE FROM Pagamento WHERE id_contrato = 100;
+DELETE FROM Contrato WHERE id_contrato = 100;
+
+DELETE FROM Aluno WHERE id_aluno = 1;
